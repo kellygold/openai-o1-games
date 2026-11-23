@@ -3,6 +3,8 @@
 
 This repository contains classic games developed in Python using Pygame. Each game is ready to play and can be easily customized.
 
+I built these in September 2024 to see what OpenAI's o1 model could produce from short prompts. The write-up is on Medium: [Building Games With OpenAI's o1 Model](https://medium.com/@kellytgold/building-games-with-openais-o1-model-da3fc8d1a4e6).
+
 ## Games Included
 
 - **Flappy Bird**: Navigate the bird through pipes.
@@ -12,8 +14,8 @@ This repository contains classic games developed in Python using Pygame. Each ga
   - Path: `snake/snake.py`
   
 - **Solitaire**: A basic solitaire card game.
-  - Path: `solitaire/solitaire.py`
-  - Assets: Card images in `solitaire/playingcards/`
+  - Path: `solitare/solitare.py`
+  - Assets: Card images in `solitare/playingcards/`
   
 - **Space Invaders**: Shoot down the aliens before they reach Earth.
   - Path: `space_invaders/space_invaders_full_game.py`
@@ -40,8 +42,8 @@ This repository contains classic games developed in Python using Pygame. Each ga
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/python-games-collection.git
-   cd python-games-collection
+   git clone https://github.com/kellygold/openai-o1-games.git
+   cd openai-o1-games
    ```
 
 2. Navigate to the game folder and run the game:
